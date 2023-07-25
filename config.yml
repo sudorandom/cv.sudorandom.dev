@@ -1,0 +1,121 @@
+## Example Config file
+BaseURL: "https://cv.sudorandom.dev"
+theme: "terminalCV"
+title: "sudorandom - CV"
+
+params:
+  description: "Kevin McDonald's interactive CV"
+  prompt: "newuser@terminalcv"
+# startxLocation: https://sudorandom.dev
+# hideSocialName: true
+  exitLocation: 'https://sudorandom.dev'
+  hidesource: true
+  greeting: | 
+    Welcome to my online resume
+
+
+    Type 'help' for a list of available commands
+
+  whois: 
+      name: "Kevin McDonald"
+      profession: "Software Engineer"
+      location: "Copenhagen, Denmark"
+      email: "kevin@sudorandom.com"
+      homelink: "https://sudorandom.dev"
+      description: |
+              I am a passionate programmer who likes to solve tough problems. As a person who understands the value of different perspectives, I enjoy working on teams to collaborate on difficult problems. I am a friendly, direct problem solver that consistently dives deep and wide into new technology and topics.
+
+  social:
+    - name: "github"
+      url: "https://github.com/sudorandom"
+    - name: "mastodon"
+      url: "https://infosec.exchange/@sudorandom"
+    - name: "twitter"
+      url: "https://twitter.com/sudorandom/"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/sudorandom/"
+
+  work:
+    - jobTitle: Senior Software Engineer
+      color: orange
+      company: 'SYBO' 
+      location: Copenhagen, Denmark
+      date: Jan 2023 - Present
+      description: Senior software engineer writing backend services for mobile games with massive reach.
+
+    - jobTitle: Senior Software Engineer
+      company: 'Vital Beats'
+      location: Copenhagen, Denmark
+      date: Oct 2021 - Jan 2023
+      description: Worked on the Vital Beats platform which assists in treating patients with implanted heart devices. I worked on backend services which collected, transformed, and analyzed electrocardiograms and other data from these heart devices.
+
+    - jobTitle: Senior Software Engineer
+      company: 'Apple'
+      location: Dallas, Texas
+      date: Nov 2016 - 2010
+      description: Worked with Apple network engineers to create highly scalable and redundant tooling and services to track, model, monitor, and configure critical network devices. This tooling improved visibility into the operation of Apple's global backbone network which serves hundreds of millions of users.
+
+    - jobTitle: Software Engineer
+      company: 'SoftLayer, an IBM Company'
+      location: Dallas, Texas
+      date: Mar 2011 - Nov 2016
+      description: I worked on several different projects, contributing to open source projects, maintaining backend systems which collect, store and process time series data.
+
+  education:
+   - courseName: University of Texas at Dallas
+     date: 2006-2011
+     description: B.S. in Computer Science
+
+
+  skills:
+    - name: Coding
+      percentage: 90
+      Description: I know many programming languages, including (but not limited to) Golang, Python, Elixir, Clojure, Java, PHP, Ruby, and more.
+
+    - name: Architecture
+      percentage: 70
+      description: I am great at balancing practicality and quality when designing systems. I've designed highly available and scalable systems as well as more simple tools. I've worked with many different orchestration systems, load balancers, databases, message queues, etc. Using this experience I 
+
+    - name: Cyber Security
+      percentage: 60
+      description: Although it has never been my primary job function, I have had several opportunities to demonstrate and document potential exploits. I also generally have a good stance towards security and will raise alarms when needed.
+
+  softskills:
+    - name: Problem solving
+      percentage: 95
+      description: I will do anything it takes to uncover the cause of problems. I am very good at visualizing complex interactions between systems and have a good intuition on what is likely the cause of the problem. I also have a good sense of code archaeology; discovering technical and non-technical reasons for code works the way it does.
+
+    - name: Continuous learning
+      percentage: 90
+      description: I stay updated with the latest technologies and trends in the software industry. I believe that it is essential for a Senior Software Engineer to maintain their expertise.
+
+    - name: Decision making
+      percentage: 80
+      description: I can make informed and well-thought-out decisions based on technical expertise and project requirements.
+
+    - name: Adaptability
+      percentage: 90
+      description: I am open to new technologies and methodologies, and adapt quickly to changing requirements or project scope.
+
+  languages:
+    - name: English
+      color: Blue
+      percentage: 95
+      description: Native level
+
+    - name: Danish
+      percentage: 10
+      description: Beginner level
+
+  projects:
+    - title: evepraisal.com
+      link: https://sudorandom.dev/posts/evepraisal.com/
+      description: Evepraisal is a web-based bulk price estimation tool for the game Eve Online. It has gained wide use and has a fairly high amount of traffic for such a simple utility. Almost anyone who plays the game has used it.
+
+    - title: Visualizing the Sun's Spectra
+      link: https://sudorandom.dev/posts/sun-spectra-image-v2.svg/
+      description: A cool project where I visualizing the visual spectrum of the sun
+
+    - title: Submarine Cable map
+      link: https://sudorandom.dev/posts/submarine-cable-map.svg/
+      description: Visualizing undersea cables on a map which create our global Internet
