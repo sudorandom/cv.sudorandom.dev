@@ -99,7 +99,7 @@ params:
 
   languages:
     - name: English
-      color: Blue
+      color: red
       percentage: 95
       description: Native level
 
