@@ -1,6 +1,6 @@
 ## Example Config file
 BaseURL: "https://cv.sudorandom.dev"
-theme: "terminalCV"
+theme: "terminalcv"
 title: "sudorandom - CV"
 
 params:
