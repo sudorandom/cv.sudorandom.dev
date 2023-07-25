@@ -5,7 +5,7 @@ title: "sudorandom - CV"
 
 params:
   description: "Kevin McDonald's interactive CV"
-  prompt: "newuser@terminalcv"
+  prompt: "newuser@cv.sudorandom.dev"
 # startxLocation: https://sudorandom.dev
 # hideSocialName: true
   exitLocation: 'https://sudorandom.dev'
